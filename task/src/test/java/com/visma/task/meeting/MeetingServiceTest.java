@@ -35,7 +35,6 @@ public class MeetingServiceTest {
 
     private MeetingDto mockMeetingDto;
     private Meeting mockMeeting;
-
     private PersonDto personDto;
 
     @Before
