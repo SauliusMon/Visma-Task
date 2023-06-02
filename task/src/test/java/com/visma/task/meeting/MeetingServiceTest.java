@@ -1,16 +1,12 @@
 package com.visma.task.meeting;
 
-import com.visma.task.mapper.MeetingMapper;
-import com.visma.task.mapper.PersonMapper;
-import com.visma.task.rest.dto.MeetingDto;
-import com.visma.task.rest.dto.MeetingFilterDto;
-import com.visma.task.rest.dto.PersonDto;
-import com.visma.task.model.Category;
-import com.visma.task.model.Meeting;
-import com.visma.task.model.Person;
-import com.visma.task.model.Type;
-import com.visma.task.repository.MeetingDatabase;
-import com.visma.task.service.MeetingService;
+import com.visma.task.meeting.dto.MeetingDto;
+import com.visma.task.meeting.dto.MeetingFilterDto;
+import com.visma.task.meeting.dto.PersonDto;
+import com.visma.task.meeting.entity.Category;
+import com.visma.task.meeting.entity.Meeting;
+import com.visma.task.meeting.entity.Person;
+import com.visma.task.meeting.entity.Type;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
