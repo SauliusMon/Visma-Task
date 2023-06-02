@@ -70,8 +70,8 @@ public class MeetingServiceTest {
 
         meetingService.createMeeting(mockMeetingDto);
 
-       Mockito.verify(meetingDatabase).getMeetings();
-       Mockito.verify(meetingDatabase, Mockito.atLeastOnce()).saveMeeting(mockMeeting);
+        Mockito.verify(meetingDatabase).getMeetings();
+        Mockito.verify(meetingDatabase, Mockito.atLeastOnce()).saveMeeting(mockMeeting);
     }
 
     @Test
